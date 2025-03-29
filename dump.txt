@@ -1,0 +1,24 @@
+ >>> RTC demo thread is starting up!!! <<< 
+
+ RTC version api:100 driver:100...
+
+==== UsageFault exception ====
+
+UFSR  = 0100 (UNALIGNED)
+
+EXC_RETURN = FFFFFFE9
+
+Register dump (stored at &20001070) is:
+R0  = 200FFFDC R1  = FFFFFFFF R2  = C0000000 R3  = 2000069C
+R4  = 8020461C R5  = 80202B81 R6  = 00000000 R7  = 80202CDD
+R8  = FFFFFFFF R9  = FFFFFFFF R10 = 80204AC8 R11 = 80204AC8
+R12 = 01010101 SP  = 200FFFD8 LR  = 80203573 PC  = 80202CF2
+Mode Thread  flags set: NzCvqiiTbgggg        PSR = A1100000
+Stack top from VTOR: 20100000
+
+==== Stack dump ====
+
+Address  :     3 2 1 0     7 6 5 4     B A 9 8     F E D C       ASCII Data
+200FFFD0 :                            80204AA7    00000000            .J .....
+200FFFE0 :    00000000    00000000    00000000    80204AA7    .............J .
+200FFFF0 :    FFFFFFFF    802034E5    80204AA7    802008B1    .....4 ..J ... .
