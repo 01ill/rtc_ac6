@@ -1,0 +1,23 @@
+00>  >>> RTC demo thread is starting up!!! <<< 
+00> 
+00> ==== UsageFault exception ====
+00> 
+00> UFSR  = 0100 (UNALIGNED)
+00> 
+00> EXC_RETURN = FFFFFFE9
+00> 
+00> Register dump (stored at &20000C70) is:
+00> R0  = FFFFFFFF R1  = 802059F8 R2  = 802059F9 R3  = 2000069C
+00> R4  = 00000000 R5  = 00000000 R6  = 00000000 R7  = 80205DBB
+00> R8  = FFFFFFFF R9  = FFFFFFFF R10 = 80205DDC R11 = 80205DDC
+00> R12 = 01010101 SP  = 200FFFC0 LR  = 80200CCD PC  = 802041AA
+00> Mode Thread  flags set: nZCvqiiTbgggg        PSR = 61100000
+00> Stack top from VTOR: 20100000
+00> 
+00> ==== Stack dump ====
+00> 
+00> Address  :     3 2 1 0     7 6 5 4     B A 9 8     F E D C       ASCII Data
+00> 200FFFC0 :    8020567E    200003E0    80205DBB    80204387    ~V .... .] ..C .
+00> 200FFFD0 :    80205DBB    8020400B    00000000    00000005    .] ..@ .........
+00> 200FFFE0 :    00000001    00000000    80205DBB    80204159    .........] .YA .
+00> 200FFFF0 :    00000000    00000000    80205DBB    80200941    .........] .A. .
